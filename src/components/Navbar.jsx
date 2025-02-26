@@ -25,10 +25,10 @@ let Nav = () =>(
                 <input type="search" placeholder='Search' className='border-1  border-slate-300 rounded-lg p-1 w-[15vw] absolute right-72 top-16 hidden'/>
                 </div>
                 <div className='flex justify-around items-center mr-3 h-[70%] w-40 text-white'>
-                    <button className='bg-red-600 w-[40%] p-1 rounded-lg font-bold'>
+                    <button className='bg-red-600 w-[40%] p-1 rounded-lg font-bold hover:bg-black hover:text-white hover:ease-out hover:transition-all hover:duration-700 hover:ease-in-out'>
                     Guider
                     </button>
-                    <button className='bg-red-500 w-[40%] p-1 rounded-lg font-bold'>
+                    <button className='bg-red-500 w-[40%] p-1 rounded-lg font-bold  hover:bg-black hover:text-white hover:ease-out hover:transition-all hover:duration-700 hover:ease-in-out'>
                     Tourist
                     </button>
                 </div>

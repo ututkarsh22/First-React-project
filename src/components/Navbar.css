@@ -22,13 +22,3 @@ nav a {
   nav a:hover::after {
     width: 100%; 
   }
-  button:hover{
-    background-color:black;
-    color:white;
-    transition:0.5s ease;
-  }
-  button:after{
-    background-color:black;
-    color:white;
-    transition:0.5s ease;
-  }

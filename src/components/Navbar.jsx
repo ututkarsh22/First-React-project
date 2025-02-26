@@ -21,7 +21,8 @@ let Nav = () =>(
                     <li><a href="">Guides</a></li>
                     <li><a href="">ContactUs</a></li>  
                 </ul>
-                <img src={search} alt="search" className='h-8 mr-3'/>
+                <button className='rounded-full w-[2vw] h-8 mr-3 relative'><img src={search} alt="search" /></button>
+                <input type="search" placeholder='Search' className='border-1  border-slate-300 rounded-lg p-1 w-[15vw] absolute right-72 top-16 hidden'/>
                 </div>
                 <div className='flex justify-around items-center mr-3 h-[70%] w-40 text-white'>
                     <button className='bg-red-600 w-[40%] p-1 rounded-lg font-bold'>

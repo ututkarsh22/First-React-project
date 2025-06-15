@@ -1,6 +1,5 @@
 import logos from '../assets/GuiderPro-removebg-preview.png'
 import search from '../assets/search-svgrepo-com.svg'
-import React from 'react'
 import './Navbar.css'
 
 let Nav = () =>(
